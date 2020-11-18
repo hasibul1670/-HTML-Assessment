@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Assessment</title>
+</head>
+<body>
+    <!-- //////////   Header Section  Start /////////////////// -->
+    <section class="">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="nav-img navbar-brand" href="#"> <img src="https://www.careerbuilder.co.in/cdn/assets/logos/cb_logo_navy-f99fc96c6c71fe50ef2d1bb09f0788d4657b16c4718b5d12030413b7fff413ac.svg" alt="" srcset=""> </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Find Jobs <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Create your Profile</a>
+            </li>
+            <li class="nav-right ">
+                <a class="nav-link active">Recommendations </a>
+                  </li>
+                  <li class="nav-item active">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+
+            <li >
+                    <button   type="button" class="btn "><a>  Sign In</a></button>
+                    </li>
+    
+
+                    <div class="dropdown">
+                        <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <a >  Employers</a>  
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <a class="dropdown-item" href="#">Employers Sign In</a>
+                          <a class="dropdown-item" href="#">Employers</a>
+                          <a class="dropdown-item" href="#">Search Resumes</a>
+                          <a class="dropdown-item" href="#"> Post Jobs</a>
+                        </div>
+                      </div>
+                </ul>
+        </div>
+      </nav>
+    </section>
+    <!-- //////////   Header Section  End /////////////////// -->
+
+        <!-- //////////   Search Bar Section  Start /////////////////// -->
+        <section class=" ">
+        <div class="searchbar">
+            <h2 class="d-flex justify-content-center ">Jobs And Vacancies</h2>
+
+        <form class=" d-flex justify-content-center form-inline my-2 my-lg-0">
+          <input  class=" input form-control mr-sm-" type="search" placeholder="eg.Programmer" aria-label="Search">
+            <input class="  input form-control mr-sm-2" type="search" placeholder="eg.Mumbai" aria-label="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Find Jobs</button>
+          </form>
+        </div>
+    </section>
+          <!-- //////////   Search Bar Section  End /////////////////// -->
+
+
+        <!-- //////////   Side Bar Section  Start /////////////////// -->
+<section class="sidebar"> 
+
+    <div class="row">
+        <div class=" left col-md-4 col-sm-4 col-12">
+
+    <div class="row  container">
+<h5 class="col-md-8  col-sm-6 col-6 d-flex justify-content-start"  >Date Posted </h5>
+
+<input   id="date"  class=" plus col-md-3 col-sm-5 col-5 d-flex justify-content-start"  type="submit" value="+">
+<ul   class="post" id="post" style="list-style-type:none">
+  <li>
+    <input type="radio" name="posted" id="posted_1" value="1">
+    <label for="posted_1">24 hours</label>
+  </li>
+  <li>
+    <input type="radio" name="posted" id="posted_3" value="3">
+    <label for="posted_3">3 Days</label>
+  </li>
+  <li>
+    <input type="radio" name="posted" id="posted_7" value="7">
+    <label for="posted_7">7 days</label>
+  </li>
+  <li>
+    <input type="radio" name="posted" id="posted_24" value="30">
+    <label for="posted_30">30 days</label>
+  </li>
+</ul>
+
+        </div>
+
+        <div class="row  container">
+          <h5 class="col-md-8  col-sm-6 col-6    d-flex justify-content-start"  >Job Type </h5>
+          <input   id="job-plus"  class=" plus col-md-3 col-sm-5 col-5 d-flex justify-content-start"  type="submit" value="+">
+          <ul   class="job-type" id="job-type" style="list-style-type:none">
+            <li>
+              <input type="checkbox" name="posted" id="posted_1" value="1">
+              <label for="posted_1">All</label>
+            </li>
+            <li>
+              <input type="checkbox" name="posted" id="posted_3" value="3">
+              <label for="posted_2">Full-Time Employee</label>
+            </li>
+          </ul>
+                  </div>
+
+<!-- ////////Catagories sidebar /////// -->
+<div class="row  container">
+  <h5 class="col-md-8  col-sm-6  col-6   d-flex justify-content-start"  >Catagories </h5>
+  <input   id="catagory-plus"  class=" plus col-md-3 col-sm-5 col-5  d-flex justify-content-start"  type="submit" value="+">
+  <ul   class="catagory" id="catagory" style="list-style-type:none">
+    <li>
+      <input type="checkbox" name="posted" id="posted_1" value="1">
+      <label for="posted_1">Information Technology</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Engineering</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Accounting</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Management</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Finance</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Sales</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Design</label>
+    </li>
+  </ul>
+          </div>
+<!-- //////////  sidebar States //////////////// -->
+<div class="row  container">
+  <h5 class="col-md-8  col-sm-6   col-6  d-flex justify-content-start"  >States </h5>
+  <input   id="state-plus"  class=" plus col-md-3 col-sm-5 col-5  d-flex justify-content-start"  type="submit" value="+">
+  <ul   class="state" id="state" style="list-style-type:none">
+    <li>
+      <input type="checkbox" name="posted" id="posted_1" value="1">
+      <label for="posted_1">Maharashtra</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Chandigarh</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Karnataka</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Uttar Pradesh</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Tamil  Nadu</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Telangana</label>
+    </li>
+    <li>
+      <input type="checkbox" name="posted" id="posted_3" value="3">
+      <label for="posted_2">Haryana</label>
+    </li>
+  </ul>
+          </div>
+        </div>
+          <!--  -->
+
+
+
+
+        <div class=" right col-md-8 col-sm-8">
+
+     <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Software Developer</h5>
+    <p>Posted 6 hours ago</p>
+
+    <p class="card-text">Job Description –.Net Developer
+      The.Net Developer role is to create and maintain enterprise software applications used across the organization. They are typically Web / Windows based (client Server) applications created using various Microsoft technologies. with the Business and Development teams.</p>
+    <a href="#" class=" btn-primary  btn">Apply Now</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Senior Web Developer</h5>
+    <p>Posted 6 hours ago</p>
+    <p class="card-text"> Description –.Net Developer
+      The.Net Developer role is to create and maintain enterprise software applications used across the organization. They are typically Web / Windows based (client Server) applications created using various Microsoft technologies. with the Business and Development teams.</p>
+    <a href="#" class=" btn-primary  btn">Apply Now</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">IOS Developer</h5>
+    <p>Posted 6 hours ago</p>
+
+    <p class="card-text">Job Description –.Net Developer
+      The.Net Developer role is to create and maintain enterprise software applications used across the organization. They are typically Web / Windows based (client Server) applications created using various Microsoft technologies. with the Business and Development teams.</p>
+    <a href="#" class=" btn-primary  btn">Apply Now</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Android Developer</h5>
+    <p>Posted 6 hours ago</p>
+    <p class="card-text">Job Description –.Net Developer
+      The.Net Developer role is to create and maintain enterprise software applications used across the organization. They are typically Web / Windows based (client Server) applications created using various Microsoft technologies. with the Business and Development teams.</p>
+    <a href="#" class=" btn-primary  btn">Apply Now</a>
+  </div>
+</div>
+        </div>
+
+
+  </div>
+
+
+
+</section>
+
+                <!-- //////////   Side Bar Section  End /////////////////// -->
+
+
+
+
+<script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
